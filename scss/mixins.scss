@@ -1,0 +1,65 @@
+@mixin navbar {
+  background: $white;
+  .nav-item {
+    .nav-link {
+      border-top: 1px solid $red;
+      padding: 10px 15px;
+    }
+    .dropdown-menu {
+      .dropdown-item {
+        border-top: 1px solid $dark-grey;
+        padding: 10px 30px;
+      }
+    }
+  }
+  .dropdown-item {
+    text-align: left !important;
+  }
+}
+
+@mixin slider-cover {
+  img.logo-cover-red {
+    z-index: 9;
+  }
+}
+
+@mixin feedbacks {
+  img.profile {
+    margin-bottom: 60px;
+  }
+}
+
+@mixin contact {
+  text-align: center !important;
+  h2 {
+    margin-bottom: 30px;
+  }
+}
+
+@mixin footer {
+  .border-danger {
+    border: none !important;
+  }
+  h6 {
+    border-bottom: 1px solid $red;
+    margin: 10px 0;
+  }
+  li {
+    margin: 10px 0;
+  }
+  .text-right {
+    text-align: center !important;
+  }
+  img {
+    margin: 0 auto;
+    display: block;
+    margin-bottom: 30px !important;
+  }
+}
+
+@mixin copyrights {
+  text-align: center;
+  .text-right {
+    text-align: center !important;
+  }
+}

@@ -1,0 +1,48 @@
+// bg classes
+.bg-red {
+  background-color: $red !important;
+}
+.bg-grey {
+  background-color: $grey !important;
+}
+.bg-dark-grey {
+  background-color: $dark-grey !important;
+}
+.bg-dark {
+  background-color: $dark !important;
+}
+
+// color classes
+.text-red {
+  color: $red;
+}
+.text-grey {
+  color: $grey;
+}
+.text-dark-grey {
+  color: $dark-grey;
+}
+.text-dark {
+  color: $dark;
+}
+
+// font size classes
+.text-xs {
+  font-size: $xs !important;
+}
+.text-sm {
+  font-size: $sm !important;
+}
+.text-md {
+  font-size: $md !important;
+}
+.text-sp {
+  font-size: $sp !important;
+}
+.text-lg {
+  font-size: $lg !important;
+}
+.text-xl {
+  font-size: $xl !important;
+  font-family: "Open Sans", sans-serif;
+}
